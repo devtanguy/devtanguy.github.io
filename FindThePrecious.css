@@ -1,0 +1,84 @@
+/* general elements of the page*/
+
+hr{
+	width: 75%;
+}
+
+.btn_reward{
+	margin-left:50%;
+}
+/* portrait's section*/
+
+.photo_gandalf{
+	margin: auto;
+	opacity: 0.4;
+	z-index: 1;	
+}
+.texte{
+	box-sizing: content-box;
+	position: absolute;
+	font-size: 30px;
+	text-align: center;
+	font-weight: bold;
+	background-color : white;
+	border-radius: 10px;
+	width: 8em;
+	height: 4em;
+	left: 4em;
+	top:2em;
+	line-height: 50px;
+	opacity: 1;
+	margin:auto;
+	z-index: 3;
+}
+.texte2{
+	box-sizing: content-box;
+	position: absolute;
+	font-size: 30px;
+	text-align: center;
+    font-weight: bold;
+    color:red;
+	width: 8em;
+	height: 4em;  
+	top:2em;
+	line-height:50px;
+	opacity: 1;
+	margin:auto;
+	z-index: 3;
+}
+
+.chiffre{
+	color: orange;
+}
+.titre{
+    position: absolute;
+	font-size: 50px;
+	text-align: center;
+	color : white;
+	width: auto;
+	z-index:2;
+	left: 3em;
+	top:7em;
+}
+
+.photo_gandalf:hover{
+	opacity:1;
+	visibility: visible;
+	z-index:3;
+
+}
+.conteneur:hover .titre{
+    opacity: 1;
+    font-size: 30px;
+    top: 15em;
+    left: 6em;
+    visibility: visible;
+    color: white;
+    z-index:4;
+}
+.conteneur:hover .texte{
+    visibility: hidden;
+}
+.conteneur:hover .texte2{
+    visibility: hidden;
+}
